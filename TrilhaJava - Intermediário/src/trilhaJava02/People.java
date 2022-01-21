@@ -1,6 +1,6 @@
 package trilhaJava02;
 
-public abstract class Pessoa {
+public abstract class People {
 	
 	private String nome;
 	private int idade;

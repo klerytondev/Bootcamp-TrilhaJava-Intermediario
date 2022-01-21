@@ -1,19 +1,18 @@
 package trilhaJava02;
 
-public class Mulher extends SerHumano {
+public class Men extends HumanBeing {
 
-	public Mulher() {
+	public Men() {
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade) {
-		if (idade >= 18 && possuiCarteiraDeTrabalho == true
-				&& andar() == true) {
+		if (idade >= 18 && possuiCarteiraDeTrabalho == true && andar() == true) {
 			return true;
 		} else {
 			return false;
 		}
 	}
-	
+
 }

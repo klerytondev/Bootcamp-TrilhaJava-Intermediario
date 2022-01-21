@@ -1,6 +1,6 @@
 package trilhaJava02;
 
-public abstract class SerHumano extends Pessoa {
+public abstract class HumanBeing extends People {
 	
 	protected  boolean andar() {
 		if (this.getIdade() >= 1) {

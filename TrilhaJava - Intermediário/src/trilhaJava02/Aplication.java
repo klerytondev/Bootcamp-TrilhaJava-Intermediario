@@ -16,7 +16,7 @@ public class Aplication {
 
 		if (op.equalsIgnoreCase("m")) {
 
-			Homem homem = new Homem();
+			Men homem = new Men();
 
 			System.out.print("Digite o nome: ");
 			String nome = sc.next();
@@ -43,7 +43,7 @@ public class Aplication {
 
 		} else {
 
-			Mulher mulher = new Mulher();
+			Woman mulher = new Woman();
 
 			System.out.print("Digite o nome: ");
 			String nome = sc.next();
