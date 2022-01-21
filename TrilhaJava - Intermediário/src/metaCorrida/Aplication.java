@@ -2,7 +2,22 @@ package metaCorrida;
 
 import java.util.Scanner;
 
-public class Aplicacao {
+/*
+ * 
+ * Uma academia precisa de um sistema que controle o percurso de
+ * determinado cliente em um determinado periodo realizado na esteira,
+ * conforme meta estipulada.
+ * Criar um sistema para controlar os kilometros percorridos de uma
+ * pessoa em um determinado periodo com metas estipuladas.
+ * Obrigatório Usar classe(s), método(s) e operadore(s) de repetição. Usar
+ * Scanner para entrada de dados pelo teclado necessario para atender a
+ * necessidade do programa da academia.
+ * 
+ * @Kleryton de Souza
+ * 
+ * */
+
+public class Aplication {
 
 	public static void main(String[] args) {
 
