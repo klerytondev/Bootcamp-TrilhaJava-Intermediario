@@ -6,11 +6,11 @@ public abstract class Pessoa {
 	private int idade;
 	private boolean possuiCarteiraDeTrabalho;
 	
-	public String getMome() {
+	public String getNome() {
 		return nome;
 	}
 
-	public void setMome(String mome) {
+	public void setNome(String mome) {
 		this.nome = mome;
 	}
 

@@ -18,9 +18,6 @@ public abstract class SerHumano extends Pessoa {
 		}
 	}
 	
-	
-
-	
-	public abstract boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade);
+	protected abstract boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade);
 
 }
