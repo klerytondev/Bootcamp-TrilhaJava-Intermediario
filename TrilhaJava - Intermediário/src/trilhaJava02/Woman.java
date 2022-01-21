@@ -9,7 +9,7 @@ public class Woman extends HumanBeing {
 	@Override
 	public boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade) {
 		if (idade >= 18 && possuiCarteiraDeTrabalho == true
-				&& andar() == true) {
+				&& andar() == true && falar() == true) {
 			return true;
 		} else {
 			return false;

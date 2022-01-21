@@ -16,7 +16,7 @@ public class Aplication {
 
 		if (op.equalsIgnoreCase("m")) {
 
-			Men homem = new Men();
+			Mens homem = new Mens();
 
 			System.out.print("Digite o nome: ");
 			String nome = sc.next();
