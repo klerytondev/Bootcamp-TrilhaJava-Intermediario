@@ -8,12 +8,12 @@ public class Homem extends SerHumano {
 
 	@Override
 	public boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade) {
-		if (idade >= 18) {
+		if (idade >= this.getIdade() && possuiCarteiraDeTrabalho == this.getPossuiCarteiraDeTrabalho()
+				&& andar() == true) {
 			return true;
 		} else {
 			return false;
 		}
-
 	}
 
 }
