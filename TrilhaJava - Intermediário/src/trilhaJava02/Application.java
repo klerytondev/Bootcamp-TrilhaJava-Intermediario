@@ -41,20 +41,17 @@ use encapsulamento e polimorfismo para isso.
  * 
  * */
 
-public class Aplication {
+public class Application {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
-		String op;
-
-		System.out.print("Deseja verificar H - Homem ou M - Mulher): ");
-		op = sc.next();
-
 		Useful imput = new Useful();
+		
+		System.out.print("Deseja verificar H - Homem ou M - Mulher): ");
 
-		imput.validacaoDeDados(op);
+		imput.validacaoDeDados(sc.next());
 
 		sc.close();
 	}
