@@ -7,7 +7,7 @@ public class Mens extends HumanBeing {
 	}
 
 	@Override
-	public boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade) {
+	protected boolean habilitadoTrabalhar(boolean possuiCarteiraDeTrabalho, int idade) {
 		if (idade >= 18 && possuiCarteiraDeTrabalho == true && andar() == true && falar() == true) {
 			return true;
 		} else {
