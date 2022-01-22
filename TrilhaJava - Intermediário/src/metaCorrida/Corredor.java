@@ -12,7 +12,6 @@ public class Corredor {
 	}
 
 	public Corredor(String mome, int ojetivo, int kmCorridos) {
-		super();
 		this.nome = mome;
 		this.ojetivo = ojetivo;
 		this.kmCorridos = kmCorridos;

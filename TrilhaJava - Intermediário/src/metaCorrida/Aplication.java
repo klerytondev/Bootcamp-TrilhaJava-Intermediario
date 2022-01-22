@@ -71,6 +71,5 @@ public class Aplication {
 		System.out.println("Finalizado o programa!");
 		System.out.println("==========================================================");
 		sc.close();
-
 	}
 }
