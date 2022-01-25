@@ -6,7 +6,6 @@ public class Address {
 	private int numero;
 	
 	
-	
 	public Address(String tipoLocradouro, String cidade, int numero) {
 		this.tipoLocradouro = tipoLocradouro;
 		this.cidade = cidade;
