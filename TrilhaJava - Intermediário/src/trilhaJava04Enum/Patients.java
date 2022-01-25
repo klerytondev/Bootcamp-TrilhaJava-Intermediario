@@ -1,6 +1,6 @@
 package trilhaJava04Enum;
 
-public class Pascientes {
+public class Patients {
 
 	private String nome;
 	private String sobrenome;
@@ -9,13 +9,13 @@ public class Pascientes {
 	private double altura;
 	private ImcReturn status;
 
-	public Pascientes(String nome, String sobrenome, int idade, double peso, double altura) {
+	public Patients(String nome, String sobrenome, int idade, double peso, double altura) {
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.idade = idade;
 		this.peso = peso;
 		this.altura = altura;
-		status = ImcReturn.status(this.calculoImc());
+		this.status = Services.status(calculoImc());
 
 	}
 
@@ -62,7 +62,7 @@ public class Pascientes {
 	private double calculoImc() {
 		return this.peso / (this.altura * this.altura);
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Pascientes [nome=" + nome + ", sobrenome=" + sobrenome + ", idade=" + idade + ", peso=" + peso

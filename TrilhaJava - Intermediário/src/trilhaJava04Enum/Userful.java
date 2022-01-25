@@ -11,7 +11,7 @@ public class Userful {
 		if (op.equalsIgnoreCase("s")) {
 
 			System.out.print("Digite a quantidade de pascientes que deseja cadastar: ");
-			Pascientes[] pascientes = new Pascientes[sc.nextInt()];
+			Patients[] pascientes = new Patients[sc.nextInt()];
 			do {
 
 				for (int i = 0; i < pascientes.length; i++) {
@@ -27,7 +27,7 @@ public class Userful {
 					System.out.print("Digite a altura: ");
 					double altura = sc.nextDouble();
 
-					Pascientes pasciente = new Pascientes(nome, sobrenome, idade, peso, altura);
+					Patients pasciente = new Patients(nome, sobrenome, idade, peso, altura);
 					pascientes[i] = pasciente;
 					
 					System.out.println("Deseja continuar Cadastrando? (S) ou (N)");
@@ -43,7 +43,7 @@ public class Userful {
 					}
 
 				}
-				for (Pascientes dados : pascientes) {
+				for (Patients dados : pascientes) {
 					System.out.println(dados);
 				}
 
