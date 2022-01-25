@@ -7,7 +7,7 @@ public class Pascientes {
 	private int idade;
 	private double peso;
 	private double altura;
-	private RetornoImc status;
+	private ImcReturn status;
 
 	public Pascientes(String nome, String sobrenome, int idade, double peso, double altura) {
 		this.nome = nome;
@@ -15,7 +15,7 @@ public class Pascientes {
 		this.idade = idade;
 		this.peso = peso;
 		this.altura = altura;
-		status = RetornoImc.status(this.calculoImc());
+		status = ImcReturn.status(this.calculoImc());
 
 	}
 
